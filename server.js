@@ -9,7 +9,7 @@ var port = process.env.PORT||8080;
 var flash = require('connect-flash');
 
 require('./config/database');
-require('./config/passport')(passport);
+require('./config/passport');
 
 app.use(morgan('dev'));
 app.use('cookieParser');
