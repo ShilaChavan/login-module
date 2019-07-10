@@ -1,4 +1,4 @@
-var LocalStrategy = require("passwport.local").strategy;
+var LocalStrategy = require("passport-local").strategy;
 var mysql = require('mysql');
 var bcrypt = require('bcrypt-nodejs');
 var dconfig = ('./database');
